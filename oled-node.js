@@ -59,4 +59,4 @@ var showPicture = () => {
   });           
 };              
 
-testFile().then(() => {console.log('done'); });
+showPicture().then(() => {console.log('done'); });
