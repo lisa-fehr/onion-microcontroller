@@ -9,6 +9,7 @@ Setup:
 - npm install request -g
 
 Pending Goals:
+- refactor node script, use a 'throw err' instead of 'else'
 - add an sd card to my Onion Omega2 Plus, I ran out of space
 - get git auth working on my microcontroller, user posts were not helpful
 - show more than one pixel image, pages on the Omega were not what I had expected (they are rows)
