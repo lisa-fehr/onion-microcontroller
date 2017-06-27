@@ -11,7 +11,7 @@ var showPicture = () => {
     setTimeout( () => {
 
       var request = require("request");
-      var url = "https://warfehr.com/oled.json";
+      var url = "https://warfehr.com/oled-msg";
       request(url, function (err, response, data) {
 
         if (!err && response.statusCode === 200){
