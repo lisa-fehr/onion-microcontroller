@@ -1,6 +1,6 @@
 /**
 * Node script for showing one image from a json file containing:
-* {['content': '01001100','columns': 4]}
+* [{'content': '01001100','columns': 4}]
 * on an Onion Omega2 Plus oled
 *
 * https://github.com/lisa-fehr/onion-microcontroller
