@@ -8,6 +8,16 @@ Setup:
 - opkg install npm
 - npm install request -g
 
+Option to add this to the /etc/rc.local file to start the script on boot:
+```
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+node /root/oled-node.js
+
+exit 0
+```
+
 Pending Goals:
 - add an sd card to my Onion Omega2 Plus, I ran out of space
 - get git auth working on my microcontroller, user posts were not helpful
